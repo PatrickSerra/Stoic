@@ -1,2 +1,2 @@
-# my_diary
+# Stoic
  A personal diary web application
