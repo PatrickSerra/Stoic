@@ -222,3 +222,5 @@ jspm_packages/
 /.vscode
 /.history
 /coverage
+
+/internal_notes
