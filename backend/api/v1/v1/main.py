@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from .config import get_settings
 
-api = FastAPI()
+settings = get_settings()
+
+api = FastAPI(title=settings.app_name)
 
 @api.get('/')
 def root():
