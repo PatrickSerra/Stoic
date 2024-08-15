@@ -3,7 +3,7 @@
 ## Introduction
 
 ### Purpose
-The purpose of this document is to outline the functional and non-functional requirements for the "Stoic" application. "Stoic" is a web application designed to provide users with a secure and intuitive platform for diary management.
+The purpose of this document is to outline the functional and non-functional requirements for the "Stoic" application. "Stoic" is a web application designed to provide users with a secure and intuitive platform for managing personal diaries.
 
 ### Scope
 "Stoic" will be a web-based application utilizing Vue.js for the frontend, FastAPI for the backend, and Docker for containerization.
@@ -43,24 +43,23 @@ The purpose of this document is to outline the functional and non-functional req
 
 5. **Search Functionality**
    - Search entries by keyword
-   - Filter results by date, category, and tags
 
 6. **Categorization**
-   - Create, manage, and assign categories
+   - Create, manage, and assign categories to entries
 
 7. **Tagging**
-   - Create, manage, and assign tags
+   - Create, manage, and assign tags to entries
 
 8. **Export/Import**
    - Export diaries and entries to JSON or PDF
-   - Import from JSON or PDF
+   - Import diaries and entries from JSON or PDF
 
 9. **Security**
    - User authentication with JWT
    - Role-based access control
 
 10. **Notification System**
-    - Email and in-app notifications
+    - Basic email notifications
 
 ### User Classes and Characteristics
 - **End Users**: Individuals managing diaries
@@ -99,7 +98,6 @@ The purpose of this document is to outline the functional and non-functional req
 
 ### Search Functionality
 1. Keyword search
-2. Filters by date, category, and tags
 
 ### Categorization
 1. Create, manage, and assign categories
@@ -116,7 +114,7 @@ The purpose of this document is to outline the functional and non-functional req
 2. Role-based access control
 
 ### Notification System
-1. Email and in-app notifications
+1. Basic email notifications
 
 ## Non-Functional Requirements
 
@@ -144,11 +142,7 @@ The purpose of this document is to outline the functional and non-functional req
 ## Appendices
 
 ### Glossary
-- **Diary**: Collection of pages for entries
-- **Page**: Section within a diary
-- **Entry**: Single note within a page
+- **Diary**: A collection of pages for storing entries.
+- **Page**: A section within a diary used to organize entries.
+- **Entry**: A single note or piece of content within a page.
 
-### References
-- [Vue.js Documentation](https://vuejs.org/)
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Docker Documentation](https://docs.docker.com/)
